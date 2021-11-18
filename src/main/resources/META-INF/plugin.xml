@@ -1,0 +1,25 @@
+<idea-plugin>
+    <id>net.cardosi.IJCodeFormatter</id>
+    <name>IJCodeFormatter</name>
+    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+    <description><![CDATA[
+    Enter short description for your plugin here.<br>
+    <em>most HTML tags may be used</em>
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action id="net.cardosi.ijcodeformatter.PopupDialogAction" class="net.cardosi.ijcodeformatter.PopupDialogAction"
+                text="Pop Dialog Action" description="SDK action example">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>
